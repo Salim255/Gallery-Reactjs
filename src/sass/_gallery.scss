@@ -1,0 +1,9 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-gap: 2px;
+   background-color: rgba($color:$color-grey-light-1, $alpha: .1);
+  
+}
+
