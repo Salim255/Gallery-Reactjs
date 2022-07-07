@@ -40,14 +40,18 @@ body{
     font-weight: 300;
     line-height: 1.6;
 }
-.container{
+.background{
 
-   //background-color: $color-primary;
+ 
    height: 100vh;
-   background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .9)), url(../img/hero.jpg);
+   background-image: linear-gradient(rgba($color-primary, 0.5), rgba($color-primary, .05)), url(../img/hero1.jpg);
    background-position: center;
    background-size: cover;
-   display: grid;
-   grid-template-rows: 8rem minmax(6rem, 88vh) ;
+   width: 100%;
+   position: fixed;
   
+}
+.container{
+    position: relative;
+    
 }
