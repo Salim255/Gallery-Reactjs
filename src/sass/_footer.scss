@@ -1,4 +1,22 @@
 .footer{
     background-color: $color-primary;
+    padding: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
+
+.scroolup{
+    position: fixed;
+    bottom: 0%;
+    right: 2%;
+   
+    z-index: 300;
+   // background-color: red;
+    font-size: 3rem;
+    &>a:link,
+    &>a:visited{
+        text-decoration: none;
+        color:rgba($color:  $color-secondary, $alpha: .3) 
+    }
+}

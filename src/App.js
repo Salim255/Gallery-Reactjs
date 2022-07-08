@@ -3,6 +3,10 @@ import { Header } from './components/Header';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Welcome from './components/Welcome';
+import About from './components/About';
+import ScrollUp from './components/ScrollUp';
+
+
 
 function App() {
   return (
@@ -12,7 +16,9 @@ function App() {
         <div className='container'>
             <Header/>
             <Welcome/>
+            <About/>
             <Gallery/>
+            <ScrollUp/>
             <Footer/>
         </div>
     </>
